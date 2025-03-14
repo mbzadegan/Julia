@@ -50,6 +50,7 @@ function mpc_sum(parties, threshold, prime)
 end
 
 # Example usage
+
 prime = 97              # A prime number larger than any secret
 threshold = 3           # Minimum number of parties needed to reconstruct the secret
 parties = [15, 22, 10]  # Secret inputs of parties
